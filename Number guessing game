@@ -1,0 +1,12 @@
+import random
+random.random()
+a = random.randint(0, 9)
+b = int(input("Nhập số bất kì từ 0 đến 9: "))
+for i in range(3):
+    if a==b:
+        print("Dự đoán đúng")
+        break
+    else:
+        print("Dự đoán sai")
+        b = int(input("Nhập số bất kì từ 0 đến 9: "))
+        a = random.randint(0, 9)
