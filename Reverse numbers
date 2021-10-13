@@ -1,0 +1,5 @@
+a = input("Nhập số nguyên dương : ")
+b = list(a)
+b.reverse()
+print(f'Số nhập vào {a}')
+print(f'Số đảo ngược {b}')
